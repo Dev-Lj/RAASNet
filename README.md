@@ -2,33 +2,7 @@
    RAASNet
 </h1>
 
-<h2 align="center">
-   Visit our Onion site for a complete C&C !
-   
-   
-   New Onion Domain:
-   
-   hplqdv5fo3vw3fjyamyer7yuc7xtvtop2j3fipc7psf3pxvhoqjoqkid.onion
-   
-   Relay:
-   
-   ust2an5ovtpxroqw7q2wfzi25lvvcuj7h2avjy66k42f3rabzdpz6pad.onion
-   
-   JOIN OUR IRC:
-   
-   6qpm6cpgz3siikgnxl4bxywmrg7obxenjzxupynz2dqwrw73rr2c3syd.onion:9924/
-</h2>
-
-![license](https://img.shields.io/github/license/leonv024/RAASNet "License")
-![compatible](https://img.shields.io/badge/Windows%2C%20Mac%20%26%20Linux-compatible-brightgreen "Platform")
-![status](https://img.shields.io/website?down_message=Offline&label=Service%20Status&up_message=Online&url=https%3A%2F%2Fzeznzo.nl%2Flogin.py "Status")
-![Security](https://img.shields.io/security-headers?label=Domain%20Security%20Grade&url=https%3A%2F%2Fzeznzo.nl "Security Grade")
-![last commit](https://img.shields.io/github/last-commit/leonv024/RAASNet "Last Commit")
-![Twitter](https://img.shields.io/badge/Twitter-@TheRealZeznzo-blue "Twitter")
-
-<h3 align="center">
-   <a href="https://www.buymeacoffee.com/Zeznzo" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/lato-blue.png" alt="Buy Me A Coffee" style="height: 21px !important;width: 187px !important;" ></a>
-</h3>
+This repository was forked from [CesarAyalaDev/RAASNet](https://github.com/CesarAyalaDev/RAASNet) and modified to avoid the required login, and to work with the newest version of Pillow
 
 <p align="center">
   Ransomware As A Service

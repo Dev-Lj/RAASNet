@@ -355,7 +355,7 @@ def encrypt_file(file_name, key):
         demon = demon.replace('<load_image>', load_image)
     else:
         load_image = """photo = PIL.Image.open(BytesIO(base64.b64decode(photo_code)))
-        resized = photo.resize((150,150), PIL.Image.ANTIALIAS)
+        resized = photo.resize((150,150), PIL.Image.LANCZOS)
         photo = PIL.ImageTk.PhotoImage(resized)"""
         demon = demon.replace('<import_pil>', 'import PIL.Image, PIL.ImageTk')
         demon = demon.replace('<load_image>', load_image)
