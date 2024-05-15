@@ -1147,7 +1147,7 @@ vV4t+0UE/G5fAN2ccz9Ug6PdAAAAAElFTkSuQmCC''')
         self.serv.destroy()
 
     def insert_banner(self):
-        banner = '''
+        banner = r'''
                          .:'                                  `:.
                          ::'                                    `::
                         :: :.                                  .: ::
